@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3453483.3454110,
+author = {Zhu, Shaowei and Kincaid, Zachary},
+title = {Termination Analysis without the Tears},
+year = {2021},
+isbn = {9781450383912},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3453483.3454110},
+doi = {10.1145/3453483.3454110},
+abstract = {Determining whether a given program terminates is the quintessential undecidable problem. Algorithms for termination analysis may be classified into two groups: (1) algorithms with strong behavioral guarantees that work in limited circumstances (e.g., complete synthesis of linear ranking functions for polyhedral loops), and (2) algorithms that are widely applicable, but have weak behavioral guarantees (e.g., Terminator). This paper investigates the space in between: how can we design practical termination analyzers with useful behavioral guarantees? This paper presents a termination analysis that is both compositional (the result of analyzing a composite program is a function of the analysis results of its components) and monotone (“more information into the analysis yields more information out”). The paper has two key contributions. The first is an extension of Tarjan’s method for solving path problems in graphs to solve infinite path problems. This provides a foundation upon which to build compositional termination analyses. The second is a collection of monotone conditional termination analyses based on this framework. We demonstrate that our tool ComPACT (Compositional and Predictable Analysis for Conditional Termination) is competitive with state-of-the-art termination tools while providing stronger behavioral guarantees.},
+booktitle = {Proceedings of the 42nd ACM SIGPLAN International Conference on Programming Language Design and Implementation},
+pages = {1296–1311},
+numpages = {16},
+keywords = {algebraic path problems, loop summarization, Algebraic program analysis, termination analysis},
+location = {Virtual, Canada},
+series = {PLDI 2021}
+}
