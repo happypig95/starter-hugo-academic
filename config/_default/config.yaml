@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Shaowei Zhu # Website name
-baseURL: 'https://cs.princeton.edu/~shaoweiz/' # Website URL
+baseURL: 'https://www.cs.princeton.edu/~shaoweiz/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -45,6 +45,7 @@ permalinks:
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  # home: []
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
